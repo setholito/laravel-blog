@@ -1,0 +1,35 @@
+ul.list-group {
+    li.list-group-item {
+        overflow: hidden;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .btn-container {
+            display: inline-block;
+            float: right;
+        }
+    }
+}
+
+ul.list-group.big-buttons {
+    li.list-group-item {
+        padding: 0;
+
+        a {
+            display: block;
+            padding: 15px;
+        }
+
+        a .glyphicon {
+            margin-right: 10px;
+        }
+    }
+}
